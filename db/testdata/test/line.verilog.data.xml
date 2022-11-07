@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE cov SYSTEM "ucdb_defs.dtd">
+<covdata count="0"  >
+  <ucapi_version  major_ver="13"  minor_ver="1"  patch_str="P-2019.06"  />
+    <instance_data name="counter_testbench"  value="11111111" />
+    <instance_data name="counter_testbench.ctr"  value="11101110" />
+</covdata>

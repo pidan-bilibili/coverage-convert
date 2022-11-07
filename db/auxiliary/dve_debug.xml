@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<opml version="1.0">
+	<head>
+		<title>VCS dump file for DVE debugging</title>
+		<vcsVersion>P-2019.06_Full64</vcsVersion>
+		<dateCreated>Sun Nov  6 12:53:24 2022</dateCreated>
+	</head>
+	<body>
+		<!-- VCS compile options -->
+		<vcsCompileOptions text="/share/instsww/synopsys-new/vcs/P-2019.06/linux64/bin/vcs1 -Mcc=gcc -Mcplusplus=g++ -Masflags= -Mcfl= -pipe -fPIC -O -I/share/instsww/synopsys-new/vcs/P-2019.06/include  -Mxcflags= -pipe -fPIC -I/share/instsww/synopsys-new/vcs/P-2019.06/include -Mldflags= -rdynamic  -Mout=counter_testbench.tb -Mamsrun= -Mvcsaceobjs= -Mobjects= /share/instsww/synopsys-new/vcs/P-2019.06/linux64/lib/libvirsim.so /share/instsww/synopsys-new/vcs/P-2019.06/linux64/lib/liberrorinf.so /share/instsww/synopsys-new/vcs/P-2019.06/linux64/lib/libsnpsmalloc.so /share/instsww/synopsys-new/vcs/P-2019.06/linux64/lib/libvfs.so  -Mexternalobj= -Msaverestoreobj=/share/instsww/synopsys-new/vcs/P-2019.06/linux64/lib/vcs_save_restore_new.o -Mcrt0= -Mcrtn= -Mcsrc= -Msyslibs=-ldl  -cm line -full64 -Xnotice=1 -line +lint=all,noVCDE,noNS,noSVA-UA -timescale=1ns/10ps -Xcbug=0x1 -o counter_testbench.tb -top counter_testbench -picarchive +vcsd +itf+/share/instsww/synopsys-new/vcs/P-2019.06/linux64/lib/vcsdp.tab +cli+4 -debug=4 +memcbk -sverilog +vpi -gen_obj /home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/src/counter.v /home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/src/z1top.v /home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/src/structural_adder.v /home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/src/full_adder.v /home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/src/behavioral_adder.v /home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/src/adder_tester.v counter_testbench.v "/>
+		<!-- File list for the whole design -->
+		<fileList>
+			<file fid="4" path="/home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/src/behavioral_adder.v" fileType="1" />
+			<file fid="0" path="/home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/src/counter.v" fileType="1" />
+			<file fid="6" path="/home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/sim/counter_testbench.v" fileType="1" />
+			<file fid="1" path="/home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/src/z1top.v" fileType="1" />
+			<file fid="3" path="/home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/src/full_adder.v" fileType="1" />
+			<file fid="2" path="/home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/src/structural_adder.v" fileType="1" />
+			<file fid="5" path="/home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/src/adder_tester.v" fileType="1" />
+		</fileList>
+		<!-- Include file list for the whole design -->
+		<includeFileList>
+		</includeFileList>
+		<!-- File order for the whole design -->
+		<fileOrder>
+		</fileOrder>
+		<!-- Encrypted codes list for the whole design -->
+		<encryptedCodesList>
+		</encryptedCodesList>
+		<!-- Inactive codes list for the whole design -->
+		<inactiveCodesList>
+			<inactiveCodes fid="6" lineno="23:24" />
+			<inactiveCodes fid="1" lineno="48:54" />
+		</inactiveCodesList>
+		<!-- Compile options UUM based -->
+		<langKeywords>
+			<svFiles fid="0-6" />
+		</langKeywords>
+		<!--  Case insensitive file list -->
+		<caseInsensitiveFiles fid="" />
+		<!-- Macro definition list for the whole design --> 
+		<macroDefinitionList>
+		</macroDefinitionList>
+		<!-- Unused macro list for the whole design --> 
+		<UnusedMacroList>
+		</UnusedMacroList>
+		<!-- Macro value list for the whole design --> 
+		<macroValueList>
+		</macroValueList>
+		<!-- Undef list for the whole design --> 
+		<UndefList>
+		</UndefList>
+	</body>
+</opml>

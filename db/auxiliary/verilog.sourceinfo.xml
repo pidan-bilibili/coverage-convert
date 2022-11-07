@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE cov SYSTEM "ucdb_srcinfo.dtd">
+  <srcinfo name="/home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/sim"  >
+    <ucapi_version  major_ver="13"  minor_ver="1"  patch_str="P-2019.06"  />
+      <fileinfo name="/home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/src/counter.v"  id="0"  />
+      <fileinfo name="/home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/src/z1top.v"  id="1"  />
+      <fileinfo name="/home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/src/structural_adder.v"  id="2"  />
+      <fileinfo name="/home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/src/full_adder.v"  id="3"  />
+      <fileinfo name="/home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/src/behavioral_adder.v"  id="4"  />
+      <fileinfo name="/home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/src/adder_tester.v"  id="5"  />
+      <fileinfo name="counter_testbench.v"  id="6"  />
+    </srcinfo>

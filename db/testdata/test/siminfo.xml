@@ -1,0 +1,4 @@
+  <test  >
+    <srctest  simtime="1000000036000 ps"  cputime="   164.520"  peakmem="116156"  hostname="c111-2.eecs.berkeley.edu"  username="eecs151-adh"  starttime="1667768901144698"  finishtime="1667769070946302"  cmdline="./counter_testbench.tb -cm line +verbose=1 +vpdfile+counter_testbench.vpd"  workdir="/home/cc/eecs151/fa22/class/eecs151-adh/fpga_labs_fa22/lab2/sim"  teststatus="unknown"  >
+    </srctest >
+  </test >

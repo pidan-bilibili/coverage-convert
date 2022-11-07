@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE cov SYSTEM "ucdb_defs.dtd">
+  <design defs="2"  insts="2"  count="0"  tglcount="0"  chksum=""  partcomp="0"  >
+    <ucapi_version  major_ver="13"  minor_ver="1"  patch_str="P-2019.06"  />
+      <srcdef id="-10"  name="counter"  type="module"  chksum="1945297328"  >
+        <srclocmult file_id="0"  start="1"  end="35"  />
+        <srcinst id="-10"  name="ctr"  pid="-11"  >
+          <srcloc file_id="0"  lines="1"  />
+        </srcinst>
+      </srcdef>
+      <srcdef id="-11"  name="counter_testbench"  type="module"  chksum="4275158219"  >
+        <srclocmult file_id="6"  start="6"  end="42"  />
+        <srcinst id="-11"  name="counter_testbench"  pid="-1"  >
+          <srcloc file_id="6"  lines="6"  />
+        </srcinst>
+      </srcdef>
+</design>    

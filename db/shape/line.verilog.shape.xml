@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE cov SYSTEM "ucdb_line.dtd">
+  <line type="verilog"  chksum="BDAAB9A357A406C8952A9327B247B30D5FF40E55"  >
+    <ucapi_version  major_ver="13"  minor_ver="1"  patch_str="P-2019.06"  />
+      <linedef id="-10"  chksum="38878262"  >
+        <lineshape >
+          <lineprocess id="0"  type="1"  file_id="0"  line_num="20"  >
+            <linebb id="0"  index="0"  type="1"  file_id="0"  line_num="20"  line_ignore="0"  chksum="1847664265"  bbsig="if (ce)"  >
+              <linestmt id="0"  file_id="0"  line_num="20"  line_ignore="0"  />
+            </linebb>
+            <linebb id="1"  index="1"  type="5"  file_id="0"  line_num="21"  line_ignore="0"  chksum="3328070921"  bbsig="if ((cycle == 27&apos;d125000000))"  >
+              <linestmt id="1"  file_id="0"  line_num="21"  line_ignore="0"  />
+            </linebb>
+            <linebb id="2"  index="2"  type="5"  file_id="0"  line_num="22"  line_ignore="0"  chksum="2440500974"  bbsig="if ((led_cnt_value == 4&apos;d15))"  >
+              <linestmt id="2"  file_id="0"  line_num="22"  line_ignore="0"  />
+            </linebb>
+            <linebb id="3"  index="3"  type="5"  file_id="0"  line_num="23"  line_ignore="0"  chksum="1821113498"  bbsig="led_cnt_value &lt;= 0;"  >
+              <linestmt id="3"  file_id="0"  line_num="23"  line_ignore="0"  />
+            </linebb>
+            <linebb id="4"  index="4"  type="6"  file_id="0"  line_num="26"  line_ignore="0"  chksum="4229204892"  bbsig="led_cnt_value &lt;= (led_cnt_value + 1);"  >
+              <linestmt id="4"  file_id="0"  line_num="26"  line_ignore="0"  />
+            </linebb>
+            <linebb id="5"  index="5"  type="21"  file_id="0"  line_num="28"  line_ignore="0"  chksum="4190128736"  bbsig="cycle &lt;= 27&apos;b0;"  >
+              <linestmt id="5"  file_id="0"  line_num="28"  line_ignore="0"  />
+            </linebb>
+            <linebb id="6"  index="6"  type="6"  file_id="0"  line_num="31"  line_ignore="0"  chksum="4068380197"  bbsig="cycle &lt;= (cycle + 27&apos;b1);"  >
+              <linestmt id="6"  file_id="0"  line_num="31"  line_ignore="0"  />
+            </linebb>
+            <linebb id="7"  index="7"  type="7"  file_id="0"  line_num="33"  line_ignore="0"  chksum="3158628262"  bbsig=""  >
+              <linestmt id="7"  file_id="0"  line_num="33"  line_ignore="5"  />
+            </linebb>
+          </lineprocess>
+        </lineshape>
+      </linedef>
+      <linedef id="-11"  chksum="382422114"  >
+        <lineshape >
+          <lineprocess id="0"  type="1"  file_id="6"  line_num="19"  >
+            <linebb id="0"  index="0"  type="1"  file_id="6"  line_num="19"  line_ignore="0"  chksum="3604643492"  bbsig="&#35;4"  >
+              <linestmt id="0"  file_id="6"  line_num="19"  line_ignore="0"  />
+            </linebb>
+            <linebb id="1"  index="1"  type="12"  file_id="6"  line_num="19"  line_ignore="0"  chksum="142522482"  bbsig="clock &lt;= (~clock);"  >
+              <linestmt id="1"  file_id="6"  line_num="19"  line_ignore="0"  />
+            </linebb>
+          </lineprocess>
+          <lineprocess id="1"  type="8"  file_id="6"  line_num="27"  >
+            <linebb id="2"  index="2"  type="8"  file_id="6"  line_num="27"  line_ignore="0"  chksum="949462718"  bbsig="$vcdpluson;"  >
+              <linestmt id="2"  file_id="6"  line_num="27"  line_ignore="0"  />
+              <linestmt id="3"  file_id="6"  line_num="32"  line_ignore="0"  />
+              <linestmt id="4"  file_id="6"  line_num="33"  line_ignore="0"  />
+            </linebb>
+            <linebb id="3"  index="3"  type="9"  file_id="6"  line_num="33"  line_ignore="0"  chksum="1347086812"  bbsig="@(posedge clock)"  >
+              <linestmt id="5"  file_id="6"  line_num="33"  line_ignore="0"  />
+            </linebb>
+            <linebb id="4"  index="4"  type="12"  file_id="6"  line_num="33"  line_ignore="0"  chksum="1053342442"  bbsig=";"  >
+              <linestmt id="6"  file_id="6"  line_num="33"  line_ignore="0"  />
+            </linebb>
+            <linebb id="5"  index="5"  type="10"  file_id="6"  line_num="33"  line_ignore="0"  chksum="1"  bbsig=""  >
+              <linestmt id="7"  file_id="6"  line_num="33"  line_ignore="5"  />
+            </linebb>
+            <linebb id="6"  index="6"  type="21"  file_id="6"  line_num="34"  line_ignore="0"  chksum="1"  bbsig=""  >
+            </linebb>
+            <linebb id="7"  index="7"  type="0"  file_id="6"  line_num="38"  line_ignore="0"  chksum="1126810405"  bbsig="$vcdplusoff;"  >
+              <linestmt id="8"  file_id="6"  line_num="38"  line_ignore="0"  />
+              <linestmt id="9"  file_id="6"  line_num="40"  line_ignore="0"  />
+            </linebb>
+          </lineprocess>
+        </lineshape>
+      </linedef>
+    </line>
