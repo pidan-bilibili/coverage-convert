@@ -4,7 +4,7 @@ def get_line_report(file):
 	dom = parse(file)
 	data = dom.documentElement
 
-	stus = data.getElementsByTagName('linestmt')
+	stus = data.getElementsByTagName('linebb')
 	line_list = []
 
 	for stu in stus:
@@ -70,14 +70,29 @@ def get_inactive_code(file):
 	dom = parse(file)
 	data = dom.documentElement
 
-	stus = data.getElementsByTagName('inactiveCodes')
+	stus = data.getElementsByTagName('instance_data')
 
 	out = []
 	for stu in stus:
-		stu_fid = stu.getAttribute('fid')
-		stu_lineno = stu.getAttribute('lineno')
-		out.append([stu_fid, stu_lineno])
+		stu_name = stu.getAttribute('name')
+		stu_value = stu.getAttribute('value')
+		out.append([stu_name, stu_value])
 	return out
+
+
+def Integrate_inactive_line(dic, inactive_line):
+	for i in range(len(inactive_line)):
+		name = inactive_line[i][0]
+		cover_line = inactive_line[i][1]
+
+		for key in dic.keys():
+			if name not in dic.keys():
+				for i in range(len(dic[key])):
+					dic[key][i].append(cover_line[i])
+			else:
+				for i in range(len(dic[name])):
+					dic[name][i].append(cover_line[i])
+	return dic
 
 
 def main():
@@ -87,17 +102,19 @@ def main():
 	file_names = get_file_name("db/design/verilog.design.xml")
 	# {file: line}
 	dic = Integrate_file_name(report_dic, file_names)
-	inactive_line = get_inactive_code("db/auxiliary/dve_debug.xml")
-	for	key in dic:
+	inactive_line = get_inactive_code("db/testdata/test/line.verilog.data.xml")
+
+	new_dic = Integrate_inactive_line(dic, inactive_line)
+
+
+	print(new_dic)
+	
+	for	key in new_dic:
 		print(key)
-		for i in dic[key]:
-			print(i[2])
+		for i in new_dic[key]:
+
+			print(i[2], i[4])
 		print("         ")
-	print("         ")
-	print("inactive_line: ", inactive_line)
-
-
-
 
 
 main()
